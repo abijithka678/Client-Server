@@ -1,0 +1,36 @@
+TCP as the transport layer protocol is used to implement client-server communication utilising socket programming.
+
+Client
+
+1.Make a Socket
+
+2. Establish a connection with the server.
+
+3.Read data from standard input and deliver it to the server using socket programming.
+
+4.Read from the socket and display the results on the standard output
+
+5.Stop
+
+
+
+Server
+
+1.Construct a Listening Socket
+
+2.Utilize the socket Programming to connect the IP and Port Address.
+
+3.A socket is listening for incoming client requests.
+
+4.When an incoming request arrives, it accepts it. 
+
+5.When it returns accept, a connection socket is formed.
+
+6.Read data from the client via the connection socket 
+
+7.Put it on the standard input.
+
+8.Turn off the connection socket.
+
+9.Turn off the listening device.
+
